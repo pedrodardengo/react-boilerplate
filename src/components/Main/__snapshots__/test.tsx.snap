@@ -43,7 +43,7 @@ exports[`<Main /> should render the heading 1`] = `
   <img
     alt="Next Js Logo, contains the word next"
     class="c1"
-    src="./next.svg"
+    src="./img/next.svg"
   />
   <h1
     class=""
@@ -58,7 +58,7 @@ exports[`<Main /> should render the heading 1`] = `
   <img
     alt="Vercel Logo, basically a black triangle"
     class="c2"
-    src="./vercel.svg"
+    src="./img/vercel.svg"
   />
 </main>
 `;
