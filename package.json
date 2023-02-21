@@ -12,9 +12,9 @@
     "build-storybook": "storybook build"
   },
   "lint-staged": {
-    "src": [
-      "yarn lint",
-      "yarn test"
+    "src/**/*": [
+			"jest -c ./jest.config.js --findRelatedTests --bail --passWithNoTests",
+      "yarn lint"
     ]
   },
   "dependencies": {
